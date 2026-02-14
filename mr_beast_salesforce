@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "screen_id": "control_room_row_1",
+  "source": "QR_scan_vault_sequence_1",
+  "source_type": "QR",
+  "timestamp": "2026-02-13T19:44:00-06:00",
+  "timestamp_utc": "2026-02-14T01:44:00Z",
+  "raw_payload": {
+    "description": "QR resolves consistently to Salesforce/MrBeast site; mapping derived from control room row capture",
+    "artifacts": [
+      {
+        "filename": "./frames/frame_01834.png",
+        "sha256": "cb553da675e5e7e56a348896784f8f6c4d3c4f145578ebb40791a409d8d3b403",
+        "artifact_type": "frame"
+      },
+      {
+        "filename": "./crop_row.png",
+        "sha256": "5d2c7578274e184562674e59fcefb74c28a3cc39497b98220ea5b9ba747bf3dc",
+        "artifact_type": "roi_crop"
+      }
+    ],
+    "roi": {
+      "x": 0,
+      "y": 60,
+      "width": 640,
+      "height": 200
+    }
+  },
+  "mapping": [
+    { "position": 1, "emoji_shortname": ":slackbot:", "label": "slackbot" },
+    { "position": 2, "emoji_shortname": ":bomb:", "label": "bomb" },
+    { "position": 3, "emoji_shortname": ":moneybag:", "label": "moneybag" },
+    { "position": 4, "emoji_shortname": ":elephant:", "label": "elephant" },
+    { "position": 5, "emoji_shortname": null, "label": "unknown_5" },
+    { "position": 6, "emoji_shortname": null, "label": "unknown_6" },
+    { "position": 7, "emoji_shortname": null, "label": "unknown_7" },
+    { "position": 8, "emoji_shortname": null, "label": "unknown_8" },
+    { "position": 9, "emoji_shortname": null, "label": "unknown_9" },
+    { "position": 10, "emoji_shortname": null, "label": "unknown_10" }
+  ],
+  "numeric_collapses": [
+    {
+      "original": 3634826,
+      "N": 10,
+      "formula": "((n - 1) mod N) + 1",
+      "result": 6,
+      "worked": "((3634826 - 1) mod 10) + 1 = (3634825 mod 10) + 1 = 5 + 1 = 6"
+    }
+  ],
+  "observed_inventory": {
+    "observed_emoji_shortnames": [
+      ":carousel_horse:",
+      ":sunflower:",
+      ":tent:",
+      ":sauropod:",
+      ":anchor:",
+      ":moneybag:",
+      ":bomb:",
+      ":elephant:",
+      ":steam_locomotive:",
+      ":pray::skin-tone-2:"
+    ],
+    "notes": "Global unordered inventory only; do not conflate with per-screen ordered mapping."
+  },
+  "notes": "Mapping is authoritative per-screen order for screen_id=control_room_row_1. Unknown positions explicitly null. Provenance anchors: frame_01834.png + crop_row.png hashes recorded. Inventory is global evidence only."
+}
