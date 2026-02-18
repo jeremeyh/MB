@@ -58,8 +58,19 @@ with context; historical entries are not retroactively rewritten.
 
 ## Navigation
 
-- [Master Timeline](mrbeast-maze-evidence/timeline/01_master_timeline.md)
-- [Video Index](mrbeast-maze-evidence/timeline/02_video_index.md)
-- [Evidence](mrbeast-maze-evidence/evidence/)
-- [Behavioral Analysis](mrbeast-maze-evidence/behavioral_analysis/)
-- [Appendix](mrbeast-maze-evidence/appendix/)
+## Navigation
+
+- 📍 **Canonical Timeline**
+  - [Master Timeline](mrbeast-maze-evidence/timeline/01_master_timeline.md)
+  - [Video Index](mrbeast-maze-evidence/timeline/02_video_index.md)
+
+- 🧾 **Evidence Files**
+  - [Evidence Directory](mrbeast-maze-evidence/evidence/)
+
+- 🧠 **Behavioral Analysis**
+  - [Pillar I — Maze as Filter](mrbeast-maze-evidence/behavioral_analysis/pillar_1_filter.md)
+  - [Pillar II — Signal Transmission](mrbeast-maze-evidence/behavioral_analysis/pillar_2_signal.md)
+
+- 📎 **Appendix**
+  - [Raw Links](mrbeast-maze-evidence/appendix/raw_links.md)
+  - [Working Notes](mrbeast-maze-evidence/appendix/working_notes.md)
