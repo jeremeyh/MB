@@ -53,3 +53,18 @@ Edits are preserved through commit history to maintain transparency and auditabi
 
 This archive is maintained as a living document. New observations are appended
 with context; historical entries are not retroactively rewritten.
+
+---
+
+## Navigation
+
+- [Master Timeline (Canonical Spine)](timeline/01_master_timeline.md)
+- [Video Index](timeline/02_video_index.md)
+
+- Behavioral Analysis:
+  - [Pillar I — Maze as Filter](behavioral_analysis/pillar_1_filter.md)
+  - [Pillar II — Signal Transmission](behavioral_analysis/pillar_2_signal.md)
+
+- Appendix:
+  - [Raw Links](appendix/raw_links.md)
+  - [Working Notes](appendix/working_notes.md)
